@@ -81,7 +81,7 @@ const Demo = () => {
 
                 {/* Browser URL History */}
                 <div className='flex flex-col gap-1 max-h-60 overflow-y-auto'>
-                    {allArticles.map((item, index) => {
+                    {allArticles.reverse().map((item, index) => (
                         <div
                             key={`link-${index}`}
                             onClick={() => setArticle(item)}
@@ -98,7 +98,7 @@ const Demo = () => {
                                 {item.url}
                             </p>
                         </div>
-                    })}
+                    ))}
                 </div>
             </div>
 
