@@ -2,6 +2,8 @@
 
 > This is a Summarize Documents App, where the user can introduce a link and the software will transform a large extend article into a concise summary.
 
+
+
 Technologies in used:
 
 - [Node.js](https://nodejs.org/en/)
@@ -40,4 +42,6 @@ Technologies in used:
    ```
 2. Drag & drop the dist folder in Netlify Page
 
-3. The project should deploy successfully 
+3. The project should deploy successfully
+
+4. My project link https://summarizer-gpt-pcg.netlify.app/
