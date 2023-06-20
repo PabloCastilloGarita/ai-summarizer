@@ -2,11 +2,18 @@
 
 > This is a Summarize Documents App, where the user can introduce a link and the software will transform a large extend article into a concise summary.
 
-## 🛠 Installation & Set Up
+Technologies in used:
 
-1. [Install Node.js](https://nodejs.org/en/) the recommended version
+- [Node.js](https://nodejs.org/en/)
+- [React.js](https://react.dev/)
+- [React Redux Toolkit](https://redux-toolkit.js.org/)
+- [Tailwind CSS](https://tailwindcss.com/docs/installation)
+- [RapidAPI Article Extractor and Summarizer](https://rapidapi.com/restyler/api/article-extractor-and-summarizer)
+- [Netlify](https://www.netlify.com/)
 
-2. Clone the repository
+## Setup
+
+1. Clone the repository
 
 ```sh
    git clone https://github.com/PabloCastilloGarita/summarizer-gpt.git
@@ -23,3 +30,14 @@
  ```sh
    npm run dev
    ```
+
+## Deployment to Netlify
+
+1. Build the project
+
+ ```sh
+   npm run build
+   ```
+2. Drag & drop the dist folder in Netlify Page
+
+3. The project should deploy successfully 
