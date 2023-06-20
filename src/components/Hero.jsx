@@ -19,7 +19,7 @@ const Hero = () => {
 
             <h1 className='head_text'>
                 Summarize Articles with <br className='max-md:hidden' />
-                <span className='orange_gradient'>OpenAI GPT-4</span>
+                <span className='pink_gradient'>OpenAI GPT-4</span>
             </h1>
             <h2 className='desc'>
             Enhance your reading process with the help of Summarize, an open-source article summarizer that simplifies lengthy articles into concise and easily understandable summaries.            </h2>
