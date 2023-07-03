@@ -2,9 +2,9 @@
 
 > This is a Summarize Documents App, where the user can introduce a link and the software will transform a large extend article into a concise summary.
 
+<div align="center"><img src="/src/assets/gif/ai-summarizer.gif" alt="ai summarizer gif" /></div>
 
-
-Technologies in used:
+<br/> Technologies in used:
 
 - [Node.js](https://nodejs.org/en/)
 - [React.js](https://react.dev/)
@@ -19,27 +19,28 @@ Technologies in used:
 
 ```sh
    git clone https://github.com/PabloCastilloGarita/summarizer-gpt.git
-   ```
+```
 
 3. Install
 
- ```sh
-   npm install
-   ```
+```sh
+  npm install
+```
 
 4. Run the project
 
- ```sh
-   npm run dev
-   ```
+```sh
+  npm run dev
+```
 
 ## Deployment to Netlify
 
 1. Build the project
 
- ```sh
-   npm run build
-   ```
+```sh
+  npm run build
+```
+
 2. Drag & drop the dist folder in Netlify Page
 
 3. The project should deploy successfully
